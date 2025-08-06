@@ -93,6 +93,15 @@
 </section>
  <p style="font-size: 13px; color: #aaa;">&copy; 2025 AK BUSINESS. All rights reserved.</p>
 </footer>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #007BFF, #28a745); /* Blue to Green */
+    color: white;
+  }
+</style>
 
     
 
