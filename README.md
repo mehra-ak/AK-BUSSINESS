@@ -1,16 +1,104 @@
- AK BUSINESS
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AK BUSINESS</title>
+  <title>AK BUSINESS - Sections</title>
   <style>
     body {
       margin: 0;
-      padding: 0;
-      background: #ffffff;
       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #007BFF, #28a745); /* Blue to Green */
+      color: #fff;
     }
+
+   .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 30px;
+      padding: 50px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+   .box {
+      background: white;
+      color: #333;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      text-align: center;
+      transition: 0.3s ease;
+    }
+
+   .box:hover {
+      transform: scale(1.05);
+    }
+
+   .box h2 {
+      margin-bottom: 15px;
+      font-size: 24px;
+    }
+
+   .box p {
+      font-size: 15px;
+      color: #555;
+    }
+
+   .box a {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+
+   .box a:hover {
+      background-color: #0056b3;
+    }
+
+   h1 {
+      text-align: center;
+      margin-top: 30px;
+      font-size: 36px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to AK BUSINESS</h1>
+
+  <div class="container">
+    <div class="box">
+      <h2>Home</h2>
+      <p>Start your journey with AK BUSINESS. Discover who we are and what we do.</p>
+      <a href="#home">Go</a>
+    </div>
+
+   <div class="box">
+      <h2>About</h2>
+      <p>Learn more about AK BUSINESS, our vision, and our team.</p>
+      <a href="#about">Go</a>
+    </div>
+
+   <div class="box">
+      <h2>Services</h2>
+      <p>Explore our services designed to support your success and business growth.</p>
+      <a href="#services">Go</a>
+    </div>
+
+   <div class="box">
+      <h2>Contact</h2>
+      <p>Get in touch with us directly for business inquiries or support.</p>
+      <a href="#contact">Go</a>
+    </div>
+  </div>
+
+</body>
+</html>
 
   </style>
 </head>
@@ -101,108 +189,4 @@
     background: linear-gradient(to right, #007BFF, #28a745); /* Blue to Green */
     color: white;
   }
-</style>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AK BUSINESS - Sections</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: linear-gradient(to right, #007BFF, #28a745); /* Blue to Green */
-      color: #fff;
-    }
-
-    .container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 30px;
-      padding: 50px;
-      max-width: 1200px;
-      margin: auto;
-    }
-
-    .box {
-      background: white;
-      color: #333;
-      padding: 30px;
-      border-radius: 15px;
-      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-      text-align: center;
-      transition: 0.3s ease;
-    }
-
-    .box:hover {
-      transform: scale(1.05);
-    }
-
-    .box h2 {
-      margin-bottom: 15px;
-      font-size: 24px;
-    }
-
-    .box p {
-      font-size: 15px;
-      color: #555;
-    }
-
-    .box a {
-      display: inline-block;
-      margin-top: 20px;
-      padding: 10px 20px;
-      background-color: #007BFF;
-      color: white;
-      text-decoration: none;
-      border-radius: 6px;
-      font-weight: bold;
-    }
-
-    .box a:hover {
-      background-color: #0056b3;
-    }
-
-    h1 {
-      text-align: center;
-      margin-top: 30px;
-      font-size: 36px;
-    }
-  </style>
-</head>
-<body>
-
-  <h1>Welcome to AK BUSINESS</h1>
-
-  <div class="container">
-    <div class="box">
-      <h2>Home</h2>
-      <p>Start your journey with AK BUSINESS. Discover who we are and what we do.</p>
-      <a href="#home">Go</a>
-    </div>
-
-   <div class="box">
-      <h2>About</h2>
-      <p>Learn more about AK BUSINESS, our vision, and our team.</p>
-      <a href="#about">Go</a>
-    </div>
-
-   <div class="box">
-      <h2>Services</h2>
-      <p>Explore our services designed to support your success and business growth.</p>
-      <a href="#services">Go</a>
-    </div>
-
-   <div class="box">
-      <h2>Contact</h2>
-      <p>Get in touch with us directly for business inquiries or support.</p>
-      <a href="#contact">Go</a>
-    </div>
-  </div>
-
-</body>
-</html>
-
-    
 
