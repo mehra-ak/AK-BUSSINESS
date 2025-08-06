@@ -66,206 +66,33 @@
     </ul>
   </section>
   <footer>
+<section id="contact" style="padding: 60px 20px; background: #f8f8f8;">
+  <div style="max-width: 600px; margin: auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.1);">
+    
+ <h2 style="text-align: center; font-size: 32px; margin-bottom: 30px; color: #333;">
+      Contact <span style="color: #007BFF;">AK BUSINESS</span>
+    </h2>
 
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AK BUSINESS</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      scroll-behavior: smooth;
-      background: #f9f9f9;
-    }
+   <form action="https://formsubmit.co/mehrakabir188@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required
+        style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px;">
+      
+  <input type="email" name="email" placeholder="Your Email" required
+        style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px;">
+
+   <textarea name="message" placeholder="Your Message" rows="5" required
+        style="width: 100%; padding: 12px; margin-bottom: 20px; border: 1px solid #ccc; border-radius: 8px; font-size: 16px;"></textarea>
+
+   <button type="submit"
+        style="width: 100%; background: #007BFF; color: white; padding: 14px; font-size: 16px; border: none; border-radius: 8px; cursor: pointer;">
+        Send Message
+      </button>
+    </form>
+
+  </div>
+</section>
+ <p style="font-size: 13px; color: #aaa;">&copy; 2025 AK BUSINESS. All rights reserved.</p>
+</footer>
 
     
-  </style>
-</head>
-<body></body>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    scroll-behavior: smooth;
-    background: linear-gradient(to right, #e0f0ff, #ffffff); /* light blue to white */
-    color: #000;
-  }
-
-  header {
-    background-color: #005fbb; /* deep blue */
-    color: white;
-    padding: 20px;
-    text-align: center;
-  }
-
-  nav {
-    background-color: #0074d9; /* brighter blue */
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 12px 0;
-  }
-
-  nav a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-
-  nav a:hover {
-    text-decoration: underline;
-  }
-
-  section {
-    background-color: white;
-    padding: 50px 20px;
-    max-width: 1000px;
-    margin: 20px auto;
-    border-radius: 12px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  }
-
-  h2 {
-    color: #003d80; /* dark blue */
-  }
-
-  footer {
-    text-align: center;
-    background: #003366;
-    color: white;
-    padding: 20px;
-  }
-
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-top: 10px;
-    border: 1px solid #ccc;
-    border-radius: 6px;
-  }
-
-  .contact-form button {
-    margin-top: 10px;
-    padding: 10px 20px;
-    background: #0074d9;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 6px;
-  }
-<script>
-  const numbers = [1, 2, 2, 3, 4, 4, 5];
-  const unique = [...new Set(numbers)];
-
-  console.log("Original:", numbers);
-  console.log("Without duplicates:", unique);
-</script>
-<script>
-  const numbers = [1, 2, 2, 3, 4, 4, 5];
-  const unique = [...new Set(numbers)];
-
-  console.log("Original:", numbers);
-  console.log("Without duplicates:", unique);
-</script>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Colorful Font Website</title>
-
-  <!-- Import a Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-
-  <style>
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      overflow: hidden;
-      font-family: 'Poppins', sans-serif;
-    }
-
-    /* Background video style */
-    #background-video {
-      position: fixed;
-      right: 0;
-      bottom: 0;
-      min-width: 100%;
-      min-height: 100%;
-      z-index: -1;
-      object-fit: cover;
-    }
-
-    /* Content over the video */
-    .content {
-      position: relative;
-      z-index: 1;
-      text-align: center;
-      padding-top: 20%;
-    }
-
-    h1 {
-      font-size: 60px;
-      background: linear-gradient(90deg, #00f, #0ff, #0f0, #ff0, #f00, #f0f);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      animation: rainbow 5s linear infinite;
-      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
-    }
-
-    p {
-      font-size: 24px;
-      color: #ffffff;
-      text-shadow: 1px 1px 4px black;
-    }
-
-    /* Optional: animate the gradient */
-    @keyframes rainbow {
-      0% { background-position: 0% 50%; }
-      100% { background-position: 100% 50%; }
-    }
-  </style>
-</head>
-<body>
- </form></body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us - AK BUSINESS</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background: #f4f4f4;
-      padding: 40px;
-      margin: 0;
-    }   
-ding: 30px;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-   }
-<div class="contact-form">
-    <h2>Contact AK BUSINESS</h2>
-    <form action="https://formsubmit.co/mehrakabir188@gmail.com" method="POST">
-      <input type="text" name="name" placeholder="Your Name" required>
-      <input type="email" name="email" placeholder="Your Email" required>
-      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-  </div>
- <p>&copy; 2025 AK BUSINESS. All rights reserved.</p>
-  <script>
-    function submitForm(e) {
-      e.preventDefault();
-      document.getElementById("form-response").innerText = "Thank you! We'll get back to you soon.";
-      e.target.reset();
-</body>
-</html>
-
-  </section>
 
