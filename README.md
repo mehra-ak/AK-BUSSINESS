@@ -1,8 +1,5 @@
-# AK-BUSSINESS
-AK BUSINESS, AK BUSINESS is a modern, forward-thinking company committed to helping individuals and organizations grow, innovate, and succeed.
-We offer smart solutions and professional services tailored to meet your business goals — whether you're starting fresh or scaling up.
-With a foundation built on trust, quality, and strategic thinking, AK BUSINESS delivers value that lasts.
-From ideas to execution, we turn your vision into reality.
+# AK-BUSINESS
+AK BUSINESS, 
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -282,5 +279,87 @@ From ideas to execution, we turn your vision into reality.
     <div class="logo">AK BUSINESS</div>
     <div class="tagline">Empowering Your Future</div>
   </div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact AK BUSINESS</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f6fa;
+    }
+
+    .contact-section {
+      max-width: 700px;
+      margin: 80px auto;
+      background: white;
+      padding: 40px;
+      border-radius: 16px;
+      box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    }
+
+    .contact-section h2 {
+      font-size: 32px;
+      text-align: center;
+      color: #0a0a23;
+      margin-bottom: 30px;
+    }
+
+    .contact-section form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contact-section input,
+    .contact-section textarea {
+      padding: 14px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 16px;
+      resize: none;
+    }
+
+    .contact-section button {
+      padding: 14px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .contact-section button:hover {
+      background-color: #0056b3;
+    }
+
+    @media (max-width: 768px) {
+      .contact-section {
+        margin: 40px 20px;
+        padding: 30px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <section class="contact-section">
+    <h2>Connect With AK BUSINESS</h2>
+    <form action="mailto:your@email.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
 </body>
 </html>
