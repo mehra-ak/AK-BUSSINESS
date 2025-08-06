@@ -95,61 +95,7 @@ AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet yo
 </head>
 <body>
 
-  <header>
-    <h1>AK BUSINESS</h1>
-    <p>Your trusted partner in business solutions</p>
-  </header>
-
-  <nav>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#services">Services</a>
-    <a href="#contact">Contact</a>
-  </nav>
-
-  <section id="home">
-    <h2>Welcome to AK BUSINESS</h2>
-    <p>Driven by innovation. Designed for success.</p>
-  </section>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>AK BUSINESS delivers cutting-edge business solutions with a creative touch. We help you scale, adapt, and grow with confidence in a fast-changing world.</p>
-  </section>
-
-  <section id="services">
-    <h2>Our Services</h2>
-    <ul>
-      <li>Business Consulting</li>
-      <li>Digital Marketing</li>
-      <li>Web & App Development</li>
-      <li>Brand Strategy</li>
-      <li>Customer Support Solutions</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact Us</h2>
-    <form class="contact-form" onsubmit="submitForm(event)">
-      <input type="text" placeholder="Your Name" required />
-      <input type="email" placeholder="Your Email" required />
-      <textarea rows="5" placeholder="Your Message" required></textarea>
-      <button type="submit">Send Message</button>
-    </form>
-    <p id="form-response" style="color: green; font-weight: bold;"></p>
-  </section>
-
-  <footer>
-    <p>&copy; 2025 AK BUSINESS. All rights reserved.</p>
-  </footer>
-
-  <script>
-    function submitForm(e) {
-      e.preventDefault();
-      document.getElementById("form-response").innerText = "Thank you! We'll get back to you soon.";
-      e.target.reset();
-    }
-  </script>
+  
 
 </body>
 </html>
