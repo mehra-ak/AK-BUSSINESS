@@ -248,20 +248,12 @@
       background: #f4f4f4;
       padding: 40px;
       margin: 0;
-    }
-
-       
+    }   
 ding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    }
-
-    
-  </style>
-</head>
-<body>
-
-  <div class="contact-form">
+   ]
+<div class="contact-form">
     <h2>Contact AK BUSINESS</h2>
     <form action="https://formsubmit.co/mehrakabir188@gmail.com" method="POST">
       <input type="text" name="name" placeholder="Your Name" required>
@@ -271,7 +263,6 @@ ding: 30px;
     </form>
   </div>
  <p>&copy; 2025 AK BUSINESS. All rights reserved.</p>
-  </footer>
   <script>
     function submitForm(e) {
       e.preventDefault();
