@@ -185,3 +185,60 @@ AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet yo
     background: #005fa3;
   }
 </style>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Video Background Website</title>
+  <style>
+    /* Make body and html take full screen */
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Style the video to cover entire screen */
+    #background-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    /* Page content over the video */
+    .content {
+      position: relative;
+      z-index: 1;
+      color: white;
+      text-align: center;
+      padding-top: 20%;
+    }
+
+    h1 {
+      font-size: 50px;
+      text-shadow: 2px 2px 8px black;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Background video -->
+  <video autoplay muted loop id="background-video">
+    <source src="mylivewallpapers-com-Dark-Spiderman-4K.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Website content -->
+  <div class="content">
+    <h1>Welcome to AK Business</h1>
+    <p>Your Success, Our Mission</p>
+  </div>
+
+</body>
+</html>
