@@ -1,5 +1,8 @@
 # AK-BUSSINESS
-AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet your needs. Whether you're an individual, small business, or large enterprise, we offer a wide range of services designed to help you succeed. From cutting-edge products to dedicated customer support, we are committed to excellence in everything we do
+AK BUSINESS, AK BUSINESS is a modern, forward-thinking company committed to helping individuals and organizations grow, innovate, and succeed.
+We offer smart solutions and professional services tailored to meet your business goals — whether you're starting fresh or scaling up.
+With a foundation built on trust, quality, and strategic thinking, AK BUSINESS delivers value that lasts.
+From ideas to execution, we turn your vision into reality.
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -256,3 +259,28 @@ AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet yo
 </html> .contact-form button:hover {
     background: #005fa3;
   }
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>AK BUSINESS Logo</title>
+  <style>
+    body {
+      background-color: #f0f8ff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    
+  </style>
+</head>
+<body>
+  <div style="text-align:center">
+    <div class="logo">AK BUSINESS</div>
+    <div class="tagline">Empowering Your Future</div>
+  </div>
+</body>
+</html>
