@@ -179,6 +179,81 @@ AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet yo
   console.log("Original:", numbers);
   console.log("Without duplicates:", unique);
 </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Colorful Font Website</title>
+
+  <!-- Import a Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      overflow: hidden;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    /* Background video style */
+    #background-video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+      z-index: -1;
+      object-fit: cover;
+    }
+
+    /* Content over the video */
+    .content {
+      position: relative;
+      z-index: 1;
+      text-align: center;
+      padding-top: 20%;
+    }
+
+    h1 {
+      font-size: 60px;
+      background: linear-gradient(90deg, #00f, #0ff, #0f0, #ff0, #f00, #f0f);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: rainbow 5s linear infinite;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+    }
+
+    p {
+      font-size: 24px;
+      color: #ffffff;
+      text-shadow: 1px 1px 4px black;
+    }
+
+    /* Optional: animate the gradient */
+    @keyframes rainbow {
+      0% { background-position: 0% 50%; }
+      100% { background-position: 100% 50%; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Video Background -->
+  <video autoplay muted loop id="background-video">
+    <source src="mylivewallpapers-com-Dark-Spiderman-4K.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+
+  <!-- Colorful Font Content -->
+  <div class="content">
+    <h1>Welcome to AK Business</h1>
+    <p>Your Success, Our Mission</p>
+  </div>
+
+</body>
+</html>
 
 
   .contact-form button:hover {
