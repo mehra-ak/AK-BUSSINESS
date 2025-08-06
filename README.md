@@ -287,4 +287,42 @@ AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet yo
 
 </body>
 </html>
-ackground: url(https://images.app.goo.gl/8rM5xoF8VyZ1bByW6'')
+Background: url(https://images.app.goo.gl/8rM5xoF8VyZ1bByW6'')
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+    background: url('https://images.unsplash.com/photo-1609250292017-9446cb6de13c?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+  }
+
+  /* Add background overlay for readability */
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.6); /* Dark overlay */
+    z-index: -1;
+  }
+
+  header, nav, section, footer {
+    background: transparent;
+  }
+
+  nav a {
+    color: #fff;
+  }
+
+  section {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: rgba(255,255,255,0.1); /* Slight section background */
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+
+  /* Keep the rest of your styles unchanged below... */
+</style>
