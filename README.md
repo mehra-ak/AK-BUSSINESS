@@ -326,3 +326,80 @@ Background: url(https://images.app.goo.gl/8rM5xoF8VyZ1bByW6'')
 
   /* Keep the rest of your styles unchanged below... */
 </style>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    scroll-behavior: smooth;
+    background: linear-gradient(to right, #e0f0ff, #ffffff); /* light blue to white */
+    color: #000;
+  }
+
+  header {
+    background-color: #005fbb; /* deep blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    background-color: #0074d9; /* brighter blue */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 12px 0;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  nav a:hover {
+    text-decoration: underline;
+  }
+
+  section {
+    background-color: white;
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  h2 {
+    color: #003d80; /* dark blue */
+  }
+
+  footer {
+    text-align: center;
+    background: #003366;
+    color: white;
+    padding: 20px;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+
+  .contact-form button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #0074d9;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+  }
+
+  .contact-form button:hover {
+    background: #005fa3;
+  }
+</style>
