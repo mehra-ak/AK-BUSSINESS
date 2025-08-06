@@ -252,7 +252,7 @@
 ding: 30px;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-   ]
+   }
 <div class="contact-form">
     <h2>Contact AK BUSINESS</h2>
     <form action="https://formsubmit.co/mehrakabir188@gmail.com" method="POST">
