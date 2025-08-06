@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
+ <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -65,9 +64,7 @@
       margin-top: 30px;
       font-size: 36px;
     }
-  </style>
-</head>
-<body>
+  
 
   <h1>Welcome to AK BUSINESS</h1>
 
