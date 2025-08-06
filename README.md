@@ -13,69 +13,6 @@ AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet yo
       scroll-behavior: smooth;
       background: #f9f9f9;
     }
-
-    header {
-      background: #1a1a1a;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav {
-      background: #333;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 10px 0;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    section {
-      padding: 50px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h2 {
-      color: #333;
-    }
-
-    footer {
-      text-align: center;
-      background: #1a1a1a;
-      color: white;
-      padding: 20px;
-    }
-
-    .contact-form input, .contact-form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-
-    .contact-form button {
-      margin-top: 10px;
-      padding: 10px 20px;
-      background: #333;
-      color: white;
-      border: none;
-      cursor: pointer;
-      border-radius: 6px;
-    }
-
-    .contact-form button:hover {
-      background: #555;
     }
   </style>
 </head>
@@ -153,78 +90,7 @@ AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet yo
       background: #f9f9f9;
     }
 
-    header {
-      background: #1a1a1a;
-      color: white;
-      padding: 20px;
-      text-align: center;
-    }
-
-    nav {
-      background: #333;
-      display: flex;
-      justify-content: center;
-      gap: 20px;
-      padding: 10px 0;
-    }
-
-    nav a {
-      color: white;
-      text-decoration: none;
-      font-weight: bold;
-    }
-
-    nav a:hover {
-      text-decoration: underline;
-    }
-
-    section {
-      padding: 50px 20px;
-      max-width: 1000px;
-      margin: auto;
-    }
-
-    h2 {
-      color: #333;
-    }
-
-    footer {
-      text-align: center;
-      background: #1a1a1a;
-      color: white;
-      padding: 20px;
-    }
-
-    .contact-form input, .contact-form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-top: 10px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-    }
-
-    .contact-form button {
-      margin-top: 10px;
-      padding: 10px 20px;
-      background: #333;
-      color: white;
-      border: none;
-      cursor: pointer;
-      border-radius: 6px;
-    }
-
-    .contact-form button:hover {
-      background: #555;
-    }
-
-    /* 3D car wallpaper in Home section */
-    #home {
-      background: url('https://images.unsplash.com/photo-1609250292017-9446cb6de13c?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
-      color: white;
-      padding: 100px 20px;
-      text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
-      border-radius: 8px;
-    }
+    
   </style>
 </head>
 <body>
