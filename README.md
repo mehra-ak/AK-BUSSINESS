@@ -93,35 +93,6 @@ AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet yo
   </style>
 </head>
 <body></body>
-
-  /* Add background overlay for readability */
-  body::before {
-    content: "";
-    position: fixed;
-    top: 0; left: 0; right: 0; bottom: 0;
-    background-color: rgba(0,0,0,0.6); /* Dark overlay */
-    z-index: -1;
-  }
-
-  header, nav, section, footer {
-    background: transparent;
-  }
-
-  nav a {
-    color: #fff;
-  }
-
-  section {
-    padding: 50px 20px;
-    max-width: 1000px;
-    margin: auto;
-    background-color: rgba(255,255,255,0.1); /* Slight section background */
-    border-radius: 10px;
-    margin-bottom: 20px;
-  }
-
-  /* Keep the rest of your styles unchanged below... */
-</style>
 <style>
   body {
     font-family: Arial, sans-serif;
