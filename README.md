@@ -398,6 +398,14 @@ Background: url(https://images.app.goo.gl/8rM5xoF8VyZ1bByW6'')
     cursor: pointer;
     border-radius: 6px;
   }
+<script>
+  const numbers = [1, 2, 2, 3, 4, 4, 5];
+  const unique = [...new Set(numbers)];
+
+  console.log("Original:", numbers);
+  console.log("Without duplicates:", unique);
+</script>
+
 
   .contact-form button:hover {
     background: #005fa3;
