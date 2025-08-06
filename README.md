@@ -220,7 +220,11 @@
       <li>Project Management</li>
       <li>Startup Support</li>
     </ul>
-  </section>
+  </section><p>Feel free to reach out for collaborations or questions. We’re just a message away.</p>
+<div style="text-align:center;">
+  <a href="mailto:mehrakabir188@gmail.com" class="button">Email Us</a>
+</div>
+
   <footer>
 <section id="contact" style="padding: 60px 20px; background: #f8f8f8;">
   <div style="max-width: 600px; margin: auto; background: white; padding: 40px; border-radius: 12px; box-shadow: 0 0 12px rgba(0,0,0,0.1);">
@@ -338,4 +342,15 @@
 
 </body>
 </html>
+<!-- About -->
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>We help businesses grow.</p>
+</section>
+
+<!-- About (again - duplicate) -->
+<section class="section" id="about">
+  <h2>About Us</h2>
+  <p>We help businesses grow.</p>
+</section>
 
