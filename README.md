@@ -1,4 +1,4 @@
-< AK BUSINESS>
+ AK BUSINESS
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -38,12 +38,6 @@
   </style>
 </head>
 <body>
-
-  <header>
-    <h1>AK BUSINESS</h1>
-    <p>Your trusted partner in business solutions</p>
-  </header>
-
   <nav>
     <a href="#home">Home</a>
     <a href="#about">About</a>
