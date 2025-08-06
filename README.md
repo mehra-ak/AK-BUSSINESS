@@ -1,4 +1,27 @@
-# AK-BUSINESS 
+< AK BUSINESS>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AK BUSINESS</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #ffffff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>AK BUSINESS</h1>
+    <p>Your Vision, Our Mission</p>
+  </header>
+</body>
+</html>
+ 
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
