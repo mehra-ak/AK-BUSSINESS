@@ -230,11 +230,7 @@
   </style>
 </head>
 <body>
-
- </form>
-  </section>
-
-</body>
+ </form></body>
 </html>
 <!DOCTYPE html>
 <html lang="en">
@@ -270,3 +266,6 @@ ding: 30px;
       e.target.reset();
 </body>
 </html>
+
+  </section>
+
