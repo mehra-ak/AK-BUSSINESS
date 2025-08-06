@@ -1,6 +1,5 @@
 # AK-BUSSINESS
-AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet your needs. Whether you're an individual, small business, or large enterprise, we offer a wide range of services designed to help you succeed. From cutting-edge products to dedicated customer support, we are committed to excellence in everything we do.
-<!DOCTYPE html>
+AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet your needs. Whether you're an individual, small business, or large enterprise, we offer a wide range of services designed to help you succeed. From cutting-edge products to dedicated customer support, we are committed to excellence in everything we do
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -93,22 +92,7 @@ AK BUSINESS, we specialize in delivering top-notch solutions tailored to meet yo
     
   </style>
 </head>
-<body>
-
-  
-
-</body>
-</html>
-Background: url(https://images.app.goo.gl/8rM5xoF8VyZ1bByW6'')
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    scroll-behavior: smooth;
-    background: url('https://images.unsplash.com/photo-1609250292017-9446cb6de13c?auto=format&fit=crop&w=1400&q=80') no-repeat center center fixed;
-    background-size: cover;
-    color: white;
-  }
+<body></body>
 
   /* Add background overlay for readability */
   body::before {
