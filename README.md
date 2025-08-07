@@ -159,5 +159,40 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Resized Background</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .background-box {
+      width: 90%;
+      max-width: 600px;
+      height: 80vh;
+      background-image: url('IMG-20240623-WA0000.jpg');
+      background-size: contain; /* Resize to fit without cutting */
+      background-repeat: no-repeat;
+      background-position: center;
+      border: 4px solid #000;
+      border-radius: 16px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="background-box"></div>
+
+</body>
+</html>
 
 
