@@ -89,3 +89,38 @@
 </head>
 <body>
  <!-- HOME -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Image Background Normal Size</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .image-box {
+      width: 400px; /* You can adjust width */
+      height: 600px; /* You can adjust height */
+      background-image: url('IMG-20240623-WA0000.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      border-radius: 16px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="image-box"></div>
+
+</body>
+</html>
