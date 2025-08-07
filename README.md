@@ -122,6 +122,40 @@
   <footer>
     &copy; 2025 AK BUSINESS. All rights reserved.
   </footer>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Background Image</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background-image: url('IMG-20240623-WA0000.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      font-family: Arial, sans-serif;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    h1 {
+      background: rgba(0, 0, 0, 0.5);
+      padding: 20px 40px;
+      border-radius: 12px;
+      font-size: 36px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Welcome to My Page</h1>
+
+</body>
+</html>
 
 </body>
 </html>
