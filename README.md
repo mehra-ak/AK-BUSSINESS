@@ -165,34 +165,37 @@
         <p>Price: $5,000,000 USD</p>
       </div>
     </div><!-- Third Slide -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Porsche Video</title>
+  <title>Video & Image Page</title>
   <style>
     body {
       background-color: #111;
       font-family: Arial, sans-serif;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
       margin: 0;
+      padding: 20px;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
     }
-    .video-box {
+    .box {
       background: #222;
       padding: 15px;
       border-radius: 12px;
       box-shadow: 0 0 20px rgba(255,255,255,0.2);
       text-align: center;
-      color: white;
+      max-width: 800px;
+      width: 100%;
     }
-    video {
+    video, img {
       max-width: 100%;
       border-radius: 8px;
-      outline: none;
     }
     .price {
       margin-top: 10px;
@@ -204,12 +207,19 @@
 </head>
 <body>
 
-  <div class="video-box">
+  <!-- Video Section -->
+  <div class="box">
     <video controls autoplay muted loop>
       <source src="porsche.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <div class="price">$5,000,000 USD</div>
+  </div>
+
+  <!-- Image Section -->
+  <div class="box">
+    <img src="car.jpg" alt="Luxury Car">
+    <div class="price">$500,000 USD</div>
   </div>
 
 </body>
