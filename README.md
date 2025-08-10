@@ -243,3 +243,34 @@
       h1, h2 { font-size: 20px; }
       .car-box, .box { padding: 10px; }
       .price { font-si
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porsche Video Test</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    video {
+      max-width: 90%;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.3);
+    }
+  </style>
+</head>
+<body>
+  <video controls autoplay muted loop>
+    <source src="porsche.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</body>
+</html>
