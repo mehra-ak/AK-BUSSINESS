@@ -147,3 +147,99 @@
 
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AK — Home</title>
+  <style>
+    /* Global Styles */
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body {
+      height: 100%;
+      font-family: Arial, sans-serif;
+      background-color: #111;
+      color: white;
+    }
+    a { color: white; text-decoration: none; }
+
+    /* Header */
+    header {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      font-weight: bold;
+      display: inline-block;
+    }
+
+    /* Sections */
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    /* Car Cards */
+    .slide {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .car-box {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 10px;
+      width: 300px;
+      flex: 1 1 280px;
+    }
+    .car-box img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .price {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+
+    /* Video & Image Boxes */
+    .box {
+      background: #222;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+      margin: 20px auto;
+      flex: 1 1 300px;
+    }
+    video, img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+
+    /* Footer */
+    footer {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    /* Responsive Adjustments */
+    @media (max-width: 768px) {
+      nav a { margin: 5px; font-size: 14px; }
+      section { padding: 20px 10px; }
+      .price { font-size: 18px; }
+      header { padding: 15px; }
+    }
+    @media (max-width: 480px) {
+      h1, h2 { font-size: 20px; }
+      .car-box, .box { padding: 10px; }
+      .price { font-si
