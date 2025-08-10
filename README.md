@@ -164,7 +164,16 @@
         <img src="Porsche-car.jpg" alt="Porsche Car">
         <p>Price: $5,000,000 USD</p>
       </div>
-    </div>
+    </div><!-- Third Slide -->
+<div class="slide">
+  <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+    <video width="800" controls>
+      <source src="This%20Porsche%20Edit%20🔥⚡%20(1).mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+</div>
+
   </section>
 
   <section id="contact">
