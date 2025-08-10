@@ -274,3 +274,61 @@
   </video>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Porsche Video & Photo</title>
+  <style>
+    body {
+      background-color: #111;
+      color: white;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+    .box {
+      background: #222;
+      padding: 15px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(255,255,255,0.2);
+      text-align: center;
+      max-width: 800px;
+      width: 100%;
+    }
+    video, img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    .price {
+      margin-top: 10px;
+      font-size: 20px;
+      font-weight: bold;
+      color: #ffcc00;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Video Section -->
+  <div class="box">
+    <video controls autoplay muted loop>
+      <source src="porsche.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="price">$5,000,000 USD</div>
+  </div>
+
+  <!-- Image Section -->
+  <div class="box">
+    <img src="car.jpg" alt="Luxury Car">
+    <div class="price">$500,000 USD</div>
+  </div>
+
+</body>
+</html>
