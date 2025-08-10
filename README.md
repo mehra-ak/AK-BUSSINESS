@@ -177,3 +177,5 @@
   </footer>
 </body>
 </html>
+<img src="land-rover.jpg" alt="Land Rover" style="width:300px; border-radius:10px;">
+<img src="porsche.jpg" alt="Porsche" style="width:300px; border-radius:10px;">
